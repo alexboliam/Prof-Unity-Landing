@@ -1,0 +1,146 @@
+@media screen and (max-width: 1000px) {
+    .toggle {
+        clear: both;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        width: 100%;
+        color: black;
+        background: #2DBBB1;
+        transition: all .1s linear;
+    }
+    .toggle:hover{
+        background: rgb(39, 161, 153);
+    }
+    #checkbox-menu:checked + label .touch li{
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #checkbox-menu:checked + label .touch {
+        height: 350px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0;
+        transition: height .3s linear;
+    }
+    .menu li{
+        display: flex;
+        align-self: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu li a{
+        width: 95%;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+    }
+    .menu li a.logo{
+        position: static;
+        padding: 10px 15px;
+        align-self: center;
+        vertical-align: middle;
+        margin: 25px 0px -25px 25px;
+    }
+
+    .welcome-section{
+        height: 89vh;
+    }
+    .logo-mobile{
+        display: unset;
+        height: 150px;
+        width: 150px;
+        margin-left: 50%;
+        padding-top: 0px;
+        transform: translate(-50%, 0);
+    }
+    .welcome-section .join-community{
+        width: 70vw;
+        height: 50px;
+        margin-left: 15.5vw;
+        margin-top: 5vh;
+    }
+    .welcome-section .welcome-text{
+        font-weight: 800;
+        font-size: 4em;
+        line-height: 40px;
+        letter-spacing: 2px;
+        color: white;
+        padding-left: 0;
+        padding-top: 4vh;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .full-size-section {
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+    .about-section{
+        margin-top: 0px;
+        padding-left: 0px;
+        background-position: bottom 0px right -355px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 0;
+        background-color: rgba(0, 110, 184, 0.7);
+        border-radius: 13px;
+        padding: 0;
+        margin: 5%;
+    }
+    .about-content img{
+        width: 40%;
+        height: auto;
+        margin: 5% 0 0 0;
+        background-color: rgba(256,256,256, 0.9);
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .about-content .about-text{
+        font-weight: 700;
+        font-size: 3em;
+        color: #fff;
+        text-align: center;
+        padding: 5%;
+    }
+    .section-name {
+        font-size: 7em;
+        font-weight: 900;
+        text-align: center;
+        color: #fff;
+    }
+    #text-hr{
+        max-width: 300px;
+        margin: 0;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        color: #fff;
+        background-color: #fff;
+    }
+    .become-member{
+        background: #006EB8;
+        height: 50px;
+        width: 44vw;
+        border-radius: 1px;
+        margin-top: 5%;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 3em;
+    }
+}

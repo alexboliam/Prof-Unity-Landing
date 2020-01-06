@@ -1,0 +1,198 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family:  'Gilroy', sans-serif;
+    font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+    scroll-behavior: smooth;
+}
+section, div{
+    position: relative;
+}
+.container{
+    margin: 0 auto; /* horizontal align для блочных*/
+    position: relative; /* нужно для absolute фото */
+}
+header {
+    background: #006EB8;
+}
+nav{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.bgr-blue {
+    background: #006EB8;
+}
+.frgr-blue{
+    color: #006EB8;
+}
+.frgr-white{
+    color: white;
+}
+
+
+#checkbox-menu, .toggle{
+    display: none;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+    max-width: 92vw;
+    /* 60px */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+.menu li a{
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    font-size: 2.5em;
+    font-weight: 900;
+    padding: 10px 15px;
+    transition: background .2s linear;
+}
+.menu li a:hover {
+    background: #2DBBB1;
+}
+
+.menu a.lc-btn {
+    background: #2DBBB1;
+    padding: 10px 15px 11px 15px;
+    border-radius: 1px;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+.menu li a.lc-btn:hover {
+    background: rgb(39, 161, 153);
+}
+
+.menu li a.logo{
+    font-weight: 900;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    position: absolute;
+    left: 7.5vw;
+    top: 50%;
+    transform: translate(0, -50%); /* Даже не спрашивайте как это работает, пока я пытался сделать отображение этой кнопки ровным по высоте при любой высоте экрана, вспомнил что где-то такое видел*/
+}
+.menu li a.logo:hover {
+    background: none;
+}
+.menu li a.logo .logo-color {
+    color: #2DBBB1;
+}
+
+button {
+    background: #2DBBB1;
+    border: none;
+    border-radius: 1px;
+    color: white;
+}
+button:hover{
+    background: rgb(39, 161, 153);
+}
+
+.logo-mobile{
+    display: none;
+}
+.welcome-section {
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.full-size-section {
+    height: 95vh;
+    padding-top: 6vh;
+    padding-left: 13vw;
+}
+.welcome-section .welcome-text {
+    font-weight: 900;
+    font-size: 4.8em;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: white;
+    padding-left: 13vw;
+    text-transform: uppercase;
+}
+.welcome-section .join-community {
+    width: 16vw;
+    height: 37px;
+    font-weight: 600;
+    font-size: 2.4em;
+    margin-left: 13vw;
+    margin-top: 4vh;
+    transition: .3s;
+}
+.arrow-down {
+    height: 2.5vh;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.75vh;
+    margin-bottom: 1.75vh;
+}
+#text-hr{
+    max-width: 200px;
+    margin-left: 0;
+}
+.section-name {
+    font-size: 5em;
+    font-weight: 900;
+}
+.full-size-section hr{
+    border: none; 
+    color: #006EB8; 
+    background-color: #006EB8; 
+    height: 2px; 
+}
+.default-text{
+    font-size: 2.5em;
+    font-weight: 300;
+}
+.about-section{
+    background: url('../img/bcgr-about.png') center center/cover no-repeat;
+}
+.about-content{
+    width: 30vw;
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-content img{
+    width: 18vw;
+    margin: 5vh 0;
+}
+.about-content .about-text{
+    font-weight: 700;
+    font-size: 2.5em;
+}
+.about-content .about-text span{
+    font-weight: 900;
+    font-size: 1.25em;
+}
+.become-member{
+    background: #006EB8;
+    height: 40px;
+    width: 13vw;
+    margin-top: 13vh;
+    font-size: 2.3em;
+    font-weight: 900;
+    border-radius: 1px;
+    transition: .3s;
+}
+.become-member:hover{
+    background: rgb(0, 84, 139);
+}
+.welcome-white-divider img:hover{
+    opacity: 50%;
+    transition: .2s;
+}
