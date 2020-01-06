@@ -99,7 +99,7 @@
         align-items: center;
         justify-content: space-between;
         padding-right: 0;
-        background-color: rgba(0, 110, 184, 0.7);
+        background-color: rgba(245, 245, 245, 0.8);
         border-radius: 13px;
         padding: 0;
         margin: 5%;
@@ -108,14 +108,14 @@
         width: 40%;
         height: auto;
         margin: 5% 0 0 0;
-        background-color: rgba(256,256,256, 0.9);
-        border-radius: 10px;
+        /* background-color: rgba(256,256,256, 0.9); */
+        /* border-radius: 10px; */
         padding: 10px;
     }
     .about-content .about-text{
         font-weight: 700;
         font-size: 3em;
-        color: #fff;
+        color: #006EB8;
         text-align: center;
         padding: 5%;
     }
