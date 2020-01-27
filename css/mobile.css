@@ -50,7 +50,7 @@
         margin: 25px 0px -25px 25px;
     }
     .welcome-white-divider{
-        border: 2px solid #006EB8;
+        /* border: 1px solid #006EB8; */
     }
     .welcome-section{
         height: 87vh;
@@ -192,5 +192,69 @@
         font-weight: 900;
         color: #fff;
         text-align: center;
+    }
+
+    .events-section{
+        height: 200vh;
+        align-items: center;
+    }
+    .about-events{
+        flex-direction: column;
+        height: 160vh;
+    }
+    .events-text{
+        align-items: center;
+        height: 100vh;
+        width: 90%;
+        padding: 0;
+        margin:0;
+    }
+    #events-header{
+        font-size: 5em;
+        font-weight: 900;
+        color: #006EB8;
+        text-align: center;
+        margin:0;
+        padding:0;
+    }
+    .about-events p{
+        font-size: 2.4em;
+    }
+    .events-img{
+        height: 60vh;
+        width: 100%;
+    }
+    #event-img{
+        height: 60vh;
+    }
+    .event-reg{
+        height: 40vh;
+        width:100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin:0;
+        padding:0;
+    }
+    .next-event-info{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .next-event-info p{
+        font-size: 2.4em;
+    }
+    .next-event-reg{
+        width: 100%;
+    }
+    .next-event-reg button{
+        width: 200px;
+        margin:0;
+        text-align: center;
+        margin-left:50%;
+        transform: translate(-50%, 0);
+    }
+    #event-hr{
+        height: 2px; 
+        width: 200px;
     }
 }
