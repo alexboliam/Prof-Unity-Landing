@@ -49,7 +49,9 @@
         vertical-align: middle;
         margin: 25px 0px -25px 25px;
     }
-
+    .welcome-white-divider{
+        border: 2px solid #006EB8;
+    }
     .welcome-section{
         height: 87vh;
     }
@@ -85,52 +87,46 @@
         margin: 0;
     }
     .about-section{
-        margin-top: 0px;
-        padding-left: 0px;
-        background-position: bottom 0px right -355px;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .about-content{
-        width: 90%;
+        /* background-position: bottom 0px right -355px; */
+        background: none;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        justify-content: space-between;
-        padding-right: 0;
-        background-color: rgba(245, 245, 245, 0.8);
-        border-radius: 13px;
-        padding: 0;
-        margin: 5%;
+    }
+    .about-content{
+        margin: 0 5% 0 5%;
+        width: 90%;
+        justify-content: space-evenly;
+        align-items: center;
     }
     .about-content img{
-        width: 40%;
-        height: auto;
-        margin: 5% 0 0 0;
-        /* background-color: rgba(256,256,256, 0.9); */
-        /* border-radius: 10px; */
-        padding: 10px;
+       margin: 3% 0 3% 0;
+       width: 50vw;
     }
     .about-content .about-text{
-        font-weight: 700;
-        font-size: 3em;
-        color: #006EB8;
         text-align: center;
-        padding: 5%;
+        font-size: 16px;
+    }
+    .about-content p{
+        margin: 5%;
+        padding-top: 0;
     }
     #about-header {
         font-size: 7em;
         font-weight: 900;
         text-align: center;
-        color: #fff;
+        color: #006EB8;
+        margin: 0 0 3% 0;
+        padding: 0;
     }
     #text-hr{
-        max-width: 300px;
-        margin: 0;
+        width: 200px;
+        height: 2px;
         margin-left: 50%;
         transform: translate(-50%, 0);
-        color: #fff;
-        background-color: #fff;
+        color: #006EB8;
+        background-color: #006EB8;
     }
     .become-member{
         background: #006EB8;
@@ -160,14 +156,30 @@
     .diff-content{
         padding:0 10% 0 10%;
     }
+    .adv-section-content li{
+        margin: 1.5vh 0 1.5vh 0;
+    }
     #diff-ul{
         text-align: left;
     }
     #diff-hr{
-        align-self: center;
+        align-self: flex-start;
+        width: 200px;
+        height: 2px;
+        margin: 0;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        color: #fff;
+        background-color: #fff;
     }
     #adv-hr{
-        align-self: center;
+        width: 200px;
+        height: 2px;
+        margin: 0;
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        color: #006EB8;
+        background-color: #006EB8;
     }
     #advantages-header{
         font-size: 5em;
