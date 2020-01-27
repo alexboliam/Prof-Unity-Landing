@@ -4,7 +4,7 @@
         display: block;
         text-align: center;
         font-size: 18px;
-        line-height: 40px;
+        line-height: 7vh;
         width: 100%;
         color: black;
         background: #2DBBB1;
@@ -51,7 +51,7 @@
     }
 
     .welcome-section{
-        height: 89vh;
+        height: 87vh;
     }
     .logo-mobile{
         display: unset;
@@ -88,7 +88,6 @@
         margin-top: 0px;
         padding-left: 0px;
         background-position: bottom 0px right -355px;
-        display: flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -119,7 +118,7 @@
         text-align: center;
         padding: 5%;
     }
-    .section-name {
+    #about-header {
         font-size: 7em;
         font-weight: 900;
         text-align: center;
@@ -170,13 +169,13 @@
     #adv-hr{
         align-self: center;
     }
-    a[name="advantages"]{
+    #advantages-header{
         font-size: 5em;
         font-weight: 900;
         color: #006EB8;
         text-align: center;
     }
-    a[name="differences"]{
+    #differences-header{
         font-size: 5em;
         font-weight: 900;
         color: #fff;
