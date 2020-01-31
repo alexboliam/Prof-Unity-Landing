@@ -289,7 +289,7 @@
     .partners-img{
         min-width: 130%;
         height: 30vh;
-        background-image: url('http://localhost:60359/img/partners-circle-mobile.png');
+        background-image: url(../img/partners-circle-mobile.png);
         background-position: center top;
         background-repeat: no-repeat;
         background-size: 100%;
