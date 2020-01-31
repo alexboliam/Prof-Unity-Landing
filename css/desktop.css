@@ -474,7 +474,10 @@ button:hover{
 .footer-info p{
     font-size: 2.3em;
     color: #006EB8;
-    margin: 0 60px 0 0;
+    margin: 0 60px 5px 0;
+}
+.footer-p-title{
+    font-weight: 700;
 }
 .footer-social-media{
     display: flex;
@@ -492,4 +495,14 @@ button:hover{
     height:34px;
     margin-left: 50px;
 
+}
+.footer-pdf-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-info-pdf{
+    font-weight: 500;
+    font-size: 2.3em;
+    color: #006EB8;
 }
