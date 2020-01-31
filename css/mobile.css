@@ -257,4 +257,42 @@
         height: 2px; 
         width: 200px;
     }
+    .event-date-div{
+        flex-direction: column;
+    }
+    .event-date{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #event-date-p{
+        font-weight: 500;
+        margin-right: 5vw;
+    }
+    
+    .partners-section{
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+    }
+    .partners-text{
+        align-items: center;
+        height: 70vh;
+        width: 90%;
+        padding: 0;
+        margin:0;
+    }
+    .partners-text p{
+        font-size: 2.4em;
+    }
+    .partners-img{
+        min-width: 130%;
+        height: 30vh;
+        background-image: url('http://localhost:60359/img/partners-circle-mobile.png');
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
 }
