@@ -22,8 +22,6 @@
                     <li><a href="#about">О нас</a></li>
                     <li><a href="#advantages">Преимущества</a></li>
                     <li><a href="#events">Мероприятия</a></li>
-                    <li><a href="#partners">Партнеры</a></li>
-                    <li><a href="https://user.prof-unity.org/login" class="lc-btn">Личный кабинет</a></li>
                 </ul>
                 <span class="toggle">☰</span>
             </label>
@@ -35,7 +33,10 @@
             <div class="container bgr-blue welcome-section">
                 <img src="icons/logo-mobile-moved.png" alt="Logo" class="logo-mobile">
                 <div class="welcome-text">САМОЕ БОЛЬШОЕ<br>ПРОФЕССИОНАЛЬНОЕ<br>СООБЩЕСТВО В УКРАИНЕ</div>
-                <button class="join-community" onclick="window.location.href = 'https://user.prof-unity.org/register'">Вступить в сообщество</button>
+                <div class="welcome-buttons">
+                    <button class="join-community" onclick="window.location.href = 'https://user.prof-unity.org/register'">Вступить в сообщество</button>
+                    <button class="lc-community join-community" onclick="window.location.href = 'https://user.prof-unity.org/login'">Личный кабинет</button>
+                </div>
             </div>
             <div class="welcome-white-divider">
                 <a href="#about"><img src="icons/arrow.png" alt="Down" class="arrow-down"></a>
@@ -49,10 +50,12 @@
             <div class="about-content">
                 <img src="icons/brand/logo-brand.png" alt="Logo prof-unity">
                 <div class="about-text frgr-blue">
-                    <p> <span>Единственный в Украине профсоюз,<br>объединяющий все сферы деятельности</span> </p>
-                    <p> PROF-UNITY - профессиональное сообщество, которые вне зависимости от политических, национальных и религиозных взглядов желает жить и работать по принципам порядочности, полезности и здравомыслия.
-                        <br><br>Наши участники, используя свои возможности и контакты, создают глобальную коммуникационную
-                        сеть для решения любых вопросов.
+                    <p id="about-title"> <span>ВСЕУКРАИНСКИЙ СОЮЗ PROF-UNITY - единственный и уникальный в Украине Профсоюз, объединяющий все сферы деятельности и независимым от государственнных органов.</span> </p>
+                    <p> PROF-UNITY - это профессиональное сообщество, которое с помощью разработанной IT площадки,  
+                        где специалисты и предприниматели, используя свои возможности и контакты, создают виртуальную коммуникационную сеть 
+                        позволяющую быстро, гарантировано и конфидециально решить любой вопрос. 
+                        <br><br>Наша миссия - предоставить защиту участнику, сделать связи доступными, с помощью простых решений, 
+                        которые представляют ВСЕУКРАИНСКИЙ ПРОФСОЮЗ PROF-UNITY.
                     </p>
                 </div>
             </div>
@@ -82,27 +85,6 @@
                     </li>
                 </ul>
             </div>
-            <div class="adv-section-content diff-content">
-                <p id="differences-header">Что отличает нас от <br>других?</p>
-                <hr id="diff-hr">
-                <ul id="diff-ul">
-                    <li>
-                        Независимость и влияние на государственные органы
-                    </li>
-                    <li>
-                        Двухсторонняя верификация
-                    </li>
-                    <li>
-                        Конфиденциальность при постановке и решении вопросов
-                    </li>
-                    <li>
-                        Трехсторонний контроль сделки
-                    </li>
-                    <li>
-                        Защита от мошенничества и черный список
-                    </li>
-                </ul>
-            </div>
         </section>
         <!-- EVENTS PAGE -->
         <a name="events" style="position: relative; top: 1px;"></a>
@@ -117,8 +99,6 @@
                         чтобы участники использовали свое время с максимальной выгодой.</p>
                     <p>Мы собираем для участников нужные им контакты, а электронная визитка наших участников позволяет с 
                         легкостью обмениваться контактами. Ваши возможности всегда онлайн в нашей базе.</p>
-                    <p id="blue-text">«Мы делаем Вас успешным и богатым за счёт профессионального нетворкинга. Ведь успех и богатство 
-                        приходят к Вам только в окружении успешных и богатых людей»</p>
                 </div>
                 <div class="events-img">
                     <img src="img/Bg.png" alt="Event image" id="event-img">
@@ -129,8 +109,8 @@
                     <p>Ближайшее cобытие:</p>
                     <div class="event-date-div">
                         <div class="event-date">
-                            <p id="event-date-p">*дата*</p>
-                            <p id="event-time-p">*время*</p>
+                            <p id="event-date-p">-</p>
+                            <p id="event-time-p">-</p>
                         </div>
                         <div class="event-place">
                             <p>В ближайшее время событий не планируется.</p>
@@ -142,18 +122,6 @@
                 </div>
             </div>
         </section>
-        <!-- PARTNERS PAGE -->
-        <a name="partners" style="position: relative; top: 1px;"></a>
-        <section class="container full-size-section partners-section">
-            <div class="partners-text">
-                <p id="events-header">Наши <br>партнеры</p>
-                <hr id="event-hr">
-                <p>Станьте партнером, давая скидки и преференции, гарантировано приобретайте новых клиентов и единомышленников. </p>
-                <p>Используйте надежные и проверенные контакты наших партнеров Получайте самую актуальную информацию в режиме онлайн. </p>
-                <p id="blue-text">Рассчитывайте на поддержку и консультацию в любой жизненной ситуации!</p>
-            </div>
-            <div class="partners-img"></div>
-        </section>
         <!-- JOIN PAGE -->
         <section class="container join-section">
             <div class="join-text">
@@ -162,15 +130,13 @@
                     <hr id="join-hr">
                 </div>
                 <div>
-                    <p>Делаем связи доступными!</p>
-                    <p>Только проверенным участникам!</p>
-                    <p>Пройди верификацию, получи доступ!</p>
+                    <p id="price-text">1 500 грн в год</p>
+                    <button class="join-button" onclick="window.location.href = 'https://user.prof-unity.org/register'">Стать участником</button>
                 </div>
-                <p id="price-text">1 500 грн в год</p>
-                <button class="join-button" onclick="window.location.href = 'https://user.prof-unity.org/register'">Стать участником</button>
             </div>
             <div class="video-div">
-                <img src="icons/icon-youtube.png" alt="Youtube player" id="youtube-img">
+                <iframe id="youtube-img" src="https://youtu.be/PE3C47nFj10" frameborder="0" allowfullscreen></iframe>
+                <!-- <img src="icons/icon-youtube.png" alt="Youtube player" id="youtube-img"> -->
             </div>
         </section>
     </main>
@@ -184,10 +150,6 @@
                 <div>
                     <p class="footer-p-title">Электронная почта</p>
                     <p>info@prof-unity.gmail.org</p>
-                </div>
-                <div>
-                    <p class="footer-p-title">Фактический адрес</p>
-                    <p>Киев, ул. Печенежская, 4, кв. 62</p>
                 </div>
                 <div class="footer-pdf-div">
                     <p class="footer-p-title">Документы</p class="footer-p-title">

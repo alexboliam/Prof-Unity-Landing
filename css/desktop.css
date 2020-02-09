@@ -117,20 +117,28 @@ button:hover{
 .welcome-section .welcome-text {
     font-weight: 900;
     font-size: 4.8em;
+    width:fit-content;
     line-height: 40px;
     letter-spacing: 1px;
     color: white;
-    padding-left: 13vw;
+    margin-left: 38vw;
+    transform: translate(-50%,0);
     text-transform: uppercase;
 }
 .welcome-section .join-community {
-    width: 16vw;
+    width: 200px;
     height: 37px;
     font-weight: 600;
     font-size: 2.4em;
-    margin-left: 13vw;
-    margin-top: 4vh;
+    margin-left: 32vw;
+    transform: translate(-50%,0);
+    margin-top: 30px;
     transition: .3s;
+}
+.lc-community{
+    margin-top: 15px !important;
+    margin-left: 0 !important;
+    width: 170px !important;
 }
 .arrow-down {
     height: 2.5vh;
@@ -146,6 +154,7 @@ button:hover{
 #about-header {
     font-size: 5em;
     font-weight: 900;
+    margin-bottom: 20px;
 }
 .full-size-section hr{
     border: none; 
@@ -161,7 +170,7 @@ button:hover{
     background: url('../img/bcgr-about.png') center center/cover no-repeat;
 }
 .about-content{
-    width: 30vw;
+    width: 33vw;
     margin-top: 7vh;
     display: flex;
     flex-direction: column;
@@ -174,16 +183,20 @@ button:hover{
 .about-content .about-text{
     font-weight: 700;
     font-size: 2.5em;
+    text-align: justify;
 }
 .about-content .about-text span{
     font-weight: 900;
-    font-size: 1.25em;
+    font-size: 1.17em;
+}
+#about-title{
+    text-align: left !important;
 }
 .become-member{
     background: #006EB8;
     height: 40px;
     width: 13vw;
-    margin-top: 13vh;
+    margin-top: 5vh;
     font-size: 2.3em;
     font-weight: 900;
     border-radius: 1px;
@@ -203,7 +216,7 @@ button:hover{
 }
 .adv-section-content{
     height: 95vh;
-    width: 50%;
+    width: 100%;
     padding-top: 6vh;
     padding-left: 10vw;
     padding-right: 8vw;
@@ -212,7 +225,7 @@ button:hover{
     justify-content: center;
 }
 .adv-content{
-    background-color: #2DBBB1;
+    background-color: #006EB8;
 }
 .diff-content{
     background-color: #006EB8;
@@ -223,7 +236,8 @@ button:hover{
 #advantages-header{
     font-size: 5em;
     font-weight: 900;
-    color: #006EB8;
+    color: #fff;
+    margin-bottom: 20px;
 }
 #differences-header{
     font-size: 5em;
@@ -251,11 +265,11 @@ button:hover{
 }
 #adv-hr{
     border: none; 
-    color: #006EB8; 
-    background-color: #006EB8; 
+    color: #fff; 
+    background-color: #fff; 
     height: 3.3px; 
     width: 7vw;
-    margin: 16px 0 70px 0;
+    margin: 0 0 70px 0;
 }
 #diff-hr{
     border: none; 
@@ -280,6 +294,7 @@ button:hover{
     align-items: center;
     height: 86vh;
     width: 100%;
+    background: url(../img/bcgr-table-fullscreen-2.png) center center/cover no-repeat;
 }
 .events-text{
     width:50%;
@@ -290,14 +305,16 @@ button:hover{
 }
 #event-img{
     height: 86vh;
+    display:none;
 }
 .events-img{
-    width: 50%;
+    min-width: 50%;
 }
 #events-header{
     font-size: 5em;
     font-weight: 900;
     color: #006EB8;
+    margin-bottom: 20px;
 }
 #event-hr{
     border: none; 
@@ -305,7 +322,7 @@ button:hover{
     background-color: #006EB8; 
     height: 3.3px; 
     width: 7vw;
-    margin: 16px 0 20px 0;
+    margin: 0 0 20px 0;
 }
 .about-events p{
     font-size: 2.7em;
@@ -431,12 +448,15 @@ button:hover{
 #price-text{
     font-size: 5em;
     font-weight: 900;
+    margin-bottom: 30px;
 }
 .video-div{
     min-width: 50%;
+    max-width: 50%;
 }
 #youtube-img{
-    height: 65vh;
+    height: 400px;
+    width: 600px;
     margin-left: 50%;
     transform: translate(-50%, 0);
 }
