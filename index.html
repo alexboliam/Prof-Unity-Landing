@@ -22,6 +22,7 @@
                     <li><a href="#about">О нас</a></li>
                     <li><a href="#advantages">Преимущества</a></li>
                     <li><a href="#events">Мероприятия</a></li>
+                    <li><a href="https://user.prof-unity.org/login" class="lc-btn">Личный кабинет</a></li>
                 </ul>
                 <span class="toggle">☰</span>
             </label>
@@ -32,11 +33,8 @@
         <section>
             <div class="container bgr-blue welcome-section">
                 <img src="icons/logo-mobile-moved.png" alt="Logo" class="logo-mobile">
-                <div class="welcome-text">САМОЕ БОЛЬШОЕ<br>ПРОФЕССИОНАЛЬНОЕ<br>СООБЩЕСТВО В УКРАИНЕ</div>
-                <div class="welcome-buttons">
-                    <button class="join-community" onclick="window.location.href = 'https://user.prof-unity.org/register'">Вступить в сообщество</button>
-                    <button class="lc-community join-community" onclick="window.location.href = 'https://user.prof-unity.org/login'">Личный кабинет</button>
-                </div>
+                
+                <button class="join-community" onclick="window.location.href = 'https://user.prof-unity.org/register'">Вступить в сообщество</button>
             </div>
             <div class="welcome-white-divider">
                 <a href="#about"><img src="icons/arrow.png" alt="Down" class="arrow-down"></a>
@@ -50,7 +48,6 @@
             <div class="about-content">
                 <img src="icons/brand/logo-brand.png" alt="Logo prof-unity">
                 <div class="about-text frgr-blue">
-                    <p id="about-title"> <span>ВПС “PROF-UNITY” - единственный в Украине Профсоюз, который объединяет все сферы деятельности и независимым от государственнных органов.</span> </p>
                     <p> PROF-UNITY - это профессиональное сообщество, которое с помощью разработанной IT площадки,  
                         где специалисты и предприниматели, используя свои возможности и контакты, создают виртуальную коммуникационную сеть 
                         позволяющую быстро, гарантировано и конфидециально решить любой вопрос. 
@@ -85,6 +82,9 @@
                     </li>
                 </ul>
             </div>
+            <div class="adv-section-content diff-content">
+                <img src="icons/advantages.png" alt="Advantages-community">
+            </div>
         </section>
         <!-- EVENTS PAGE -->
         <a name="events" style="position: relative; top: 1px;"></a>
@@ -104,29 +104,12 @@
                     <img src="img/Bg.png" alt="Event image" id="event-img">
                 </div>
             </div>
-            <div class="event-reg">
-                <div class="next-event-info">
-                    <p>Ближайшее cобытие:</p>
-                    <div class="event-date-div">
-                        <div class="event-date">
-                            <p id="event-date-p">-</p>
-                            <p id="event-time-p">-</p>
-                        </div>
-                        <div class="event-place">
-                            <p>В ближайшее время событий не планируется.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="next-event-reg"> <!-- TODO: onClick, ref to google form -->
-                    <button>Зарегистрироваться</button>
-                </div>
-            </div>
         </section>
         <!-- JOIN PAGE -->
         <section class="container join-section">
             <div class="join-text">
                 <div>
-                    <p id="join-header">Стань <br>участником профсоюза</p>
+                    <p id="join-header">Стань участником самого большого профессионального сообщества в Украине</p>
                     <hr id="join-hr">
                 </div>
                 <div>

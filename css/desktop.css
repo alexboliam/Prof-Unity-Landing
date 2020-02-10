@@ -216,22 +216,22 @@ button:hover{
 }
 .adv-section-content{
     height: 95vh;
-    width: 100%;
+    width: 50vw;
     padding-top: 6vh;
     padding-left: 10vw;
-    padding-right: 8vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.adv-content{
     background-color: #006EB8;
 }
 .diff-content{
-    background-color: #006EB8;
-    padding-top: 6vh;
-    padding-left: 8vw;
-    padding-right: 10vw;
+    min-width:50vw;
+    padding: 6vh 0 0 0 !important;
+}
+.diff-content img{
+    margin-left: 5vw;
+    height: 40vw;
+    width: 40vw;
 }
 #advantages-header{
     font-size: 5em;
@@ -292,7 +292,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 86vh;
+    height: 100vh;
     width: 100%;
     background: url(../img/bcgr-table-fullscreen-2.png) center center/cover no-repeat;
 }
@@ -425,12 +425,16 @@ button:hover{
     padding: 0 8vw 0 10vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 .join-text p{
     font-size: 2.9em;
     color: #fff;
     margin: 7px 0 0 0;
+}
+#join-text{
+    font-weight: 600;
+    font-size: 3.7em;
 }
 #join-header{
     font-size: 5em;
@@ -448,6 +452,7 @@ button:hover{
 #price-text{
     font-size: 5em;
     font-weight: 900;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 .video-div{
