@@ -202,7 +202,7 @@ button:hover{
     font-size: 5em;
     font-weight: 900;
     margin-bottom: 20px;
-    margin-top: 80px;
+    margin-top: 10vh;
     color: #006EB8;
 }
 .full-size-section hr{
@@ -276,8 +276,8 @@ button:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: url('../img/Prof-unity-274-2.png') center center/cover no-repeat;
-    background-position-y: -85px;
+    background: url('../img/Prof-unity-274-3.png') center center/cover no-repeat;
+    /* background-position-y: -85px; */
 }
 .adv-section-content{
     height: 95vh;
