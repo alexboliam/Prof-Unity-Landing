@@ -115,10 +115,10 @@ button:hover{
 .logo-main{
     margin-left: 50%;
     margin-bottom: 40px;
-    margin-top: -40px;
+    margin-top: 0px;
     transform: translate(-50%,0);
-    height: 240px;
-    width: 240px;
+    height: 200px;
+    width: 200px;
 }
 .welcome-section {
     height: 87vh;
