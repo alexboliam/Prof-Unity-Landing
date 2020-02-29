@@ -49,19 +49,15 @@
         vertical-align: middle;
         margin: 25px 0px -25px 25px;
     }
-    .welcome-white-divider{
-        /* border: 1px solid #006EB8; */
-    }
     .welcome-section{
         height: 87vh;
     }
-    .logo-mobile{
-        /* display: unset; */
-        display: none;
+    #logo-main{
         height: 150px;
         width: 150px;
+        margin-top: 0;
         margin-left: 50%;
-        padding-top: 0px;
+        margin-bottom: 0;
         transform: translate(-50%, 0);
     }
     .welcome-section .join-community{
@@ -72,15 +68,16 @@
         margin-top: 5vh;
     }
     .welcome-section .welcome-text{
-        font-weight: 800;
+        align-self: center;
         font-size: 4em;
-        line-height: 40px;
-        letter-spacing: 2px;
-        color: white;
-        padding-left: 0;
-        padding-top: 4vh;
-        text-transform: uppercase;
-        text-align: center;
+        margin:0;
+        transform:translate(0,0);
+    }
+    .welcome-section .welcome-text-bottom{
+        align-self: center;
+        font-size: 2.6em;
+        margin:0;
+        transform:translate(0,0);
     }
 
     .full-size-section {
@@ -207,7 +204,7 @@
     .events-text{
         align-items: center;
         height: 100vh;
-        width: 90%;
+        width: 100%;
         padding: 0;
         margin:0;
     }
