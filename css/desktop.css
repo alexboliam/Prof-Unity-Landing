@@ -107,7 +107,7 @@ button:hover{
 }
 .welcome-section {
     height: 87vh;
-    background: url('../img/Prof-unity-278-2.png') center center/cover no-repeat;
+    background: url('../img/Prof-unity-welcome.png') center center/cover no-repeat;
 
     display: flex;
     flex-direction: column;
@@ -263,7 +263,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: url('../img/Prof-unity-274-3.png') center center/cover no-repeat;
+    background: url('../img/Prof-unity-advantages.png') center center/cover no-repeat;
     /* background-position-y: -85px; */
 }
 .adv-section-content{
@@ -333,7 +333,7 @@ button:hover{
     align-items: center;
     height: 100vh;
     width: 100%;
-    background: url(../img/bcgr-table-fullscreen-2.png) center center/cover no-repeat;
+    background: url(../img/bcgr-events.png) center center/cover no-repeat;
 }
 .events-section p{
     font-size: 3.2em;
@@ -419,38 +419,13 @@ button:hover{
     margin-left: 50%;
 }
 
-.partners-section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding:0;
-    height: 100vh;
-}
-.partners-text{
-    width: 50%;
-    padding: 0 8vw 0 10vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.partners-text p{
-    font-size: 2.7em;
-}
-.partners-img{
-    min-width: 50%;
-    height: 100vh;
-    background-image: url(../img/partners-circle.png);
-    background-position: -50% center;
-    background-repeat: no-repeat;
-    background-size: 140%;
-}
 .join-section{
     height: 86vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     /* background-color: #006EB8; */
-    background: url(../img/Prof-unity-271-2.png) center center/cover no-repeat;
+    background: url(../img/Prof-unity-join.png) center center/cover no-repeat;
 }
 .join-text{
     width: 50%;
