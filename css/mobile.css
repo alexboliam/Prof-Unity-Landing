@@ -79,7 +79,6 @@
         margin:0;
         transform:translate(0,0);
     }
-
     .full-size-section {
         height: 100vh;
         padding: 0;
@@ -99,17 +98,9 @@
         justify-content: space-evenly;
         align-items: center;
     }
-    .about-content img{
-       margin: 3% 0 3% 0;
-       width: 50vw;
-    }
     .about-content .about-text{
         text-align: center;
         font-size: 3em;
-    }
-    .about-content p{
-        margin: 5%;
-        padding-top: 0;
     }
     #about-header {
         font-size: 7em;
@@ -156,24 +147,8 @@
     .adv-content{
         padding:0 10% 0 10%;
     }
-    .diff-content{
-        padding:0 10% 0 10%;
-    }
     .adv-section-content li{
         margin: 1.5vh 0 1.5vh 0;
-    }
-    #diff-ul{
-        text-align: left;
-    }
-    #diff-hr{
-        align-self: flex-start;
-        width: 200px;
-        height: 2px;
-        margin: 0;
-        margin-left: 50%;
-        transform: translate(-50%, 0);
-        color: #fff;
-        background-color: #fff;
     }
     #adv-hr{
         width: 200px;
@@ -190,13 +165,6 @@
         color: #fff;
         text-align: center;
     }
-    #differences-header{
-        font-size: 5em;
-        font-weight: 900;
-        color: #fff;
-        text-align: center;
-    }
-
     .events-section{
         align-items: center;
         background: white;
@@ -227,55 +195,9 @@
     .about-events p{
         font-size: 2.4em;
     }
-    .events-img{
-        height: 60vh;
-        width: 100%;
-    }
-    #event-img{
-        height: 60vh;
-    }
-    .event-reg{
-        height: 40vh;
-        width:100%;
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin:0;
-        padding:0;
-    }
-    .next-event-info{
-        width: 100%;
-        text-align: center;
-        padding-left: 0;
-    }
-    .next-event-info p{
-        font-size: 2.4em;
-    }
-    .next-event-reg{
-        width: 100%;
-    }
-    .next-event-reg button{
-        width: 200px;
-        margin:0;
-        text-align: center;
-        margin-left:50%;
-        transform: translate(-50%, 0);
-    }
     #event-hr{
         height: 2px; 
         width: 200px;
-    }
-    .event-date-div{
-        flex-direction: column;
-    }
-    .event-date{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    #event-date-p{
-        font-weight: 500;
-        margin-right: 5vw;
     }
     .join-section{
         flex-direction: column;
@@ -328,7 +250,6 @@
         margin-left: 50%;
         transform: translate(-50%, 0);
     }
-
     .footer-section{
         height: 250px;
         width: 90%;

@@ -10,8 +10,8 @@ section, div{
     position: relative;
 }
 .container{
-    margin: 0 auto; /* horizontal align для блочных*/
-    position: relative; /* нужно для absolute фото */
+    margin: 0 auto; 
+    position: relative; 
 }
 header {
     background: #006EB8;
@@ -23,17 +23,14 @@ nav{
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
     z-index: 1;
 }
-
 #checkbox-menu, .toggle{
     display: none;
 }
-
 .menu{
     padding: 0;
     margin: 0;
     height: 7vh;
     max-width: 92vw;
-    /* 60px */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -63,7 +60,6 @@ nav{
     transition: .4s;
 }
 .menu li a.lc-btn:hover {
-    /* background: rgb(39, 161, 153); */
     background: #fff;
     color: #2DBBB1;
 }
@@ -75,7 +71,7 @@ nav{
     position: absolute;
     left: 7.5vw;
     top: 50%;
-    transform: translate(0, -50%); /* Даже не спрашивайте как это работает, пока я пытался сделать отображение этой кнопки ровным по высоте при любой высоте экрана, вспомнил что где-то такое видел*/
+    transform: translate(0, -50%); 
 }
 .menu li a.logo:hover {
     background: none;
@@ -92,8 +88,6 @@ button {
     cursor: pointer;
 }
 button:hover{
-    /* background: rgb(39, 161, 153);
-    color: rgb(221, 221, 221); */
     background: #006EB8;
     color: rgb(255, 255, 255);
 }
@@ -198,10 +192,6 @@ button:hover{
     background-color: #006EB8; 
     height: 2px; 
 }
-.default-text{
-    font-size: 2.5em;
-    font-weight: 300;
-}
 .about-section{
     background: url('../img/bcgr-about.png') center center/cover no-repeat;
 }
@@ -212,13 +202,6 @@ button:hover{
     flex-direction: column;
     align-items: center;
 }
-.about-content img{
-    width: 18vw;
-    margin: 5vh 0;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-}
 .about-content .about-text{
     font-weight: 500;
     font-size: 3.2em;
@@ -228,9 +211,6 @@ button:hover{
 .about-content .about-text span{
     font-weight: 900;
     font-size: 1.17em;
-}
-#about-title{
-    text-align: left !important;
 }
 .become-member{
     background: #2DBBB1;
@@ -245,10 +225,6 @@ button:hover{
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
 }
 .become-member:hover{
-    /* background: rgb(185, 214, 235);
-    color:rgb(2, 78, 129) */
-    /* background: rgb(39, 161, 153);
-    color: rgb(221, 221, 221); */
     background: #006EB8;
 }
 .welcome-white-divider{
@@ -264,7 +240,6 @@ button:hover{
     flex-direction: row;
     align-items: center;
     background: url('../img/Prof-unity-advantages.png') center center/cover no-repeat;
-    /* background-position-y: -85px; */
 }
 .adv-section-content{
     height: 95vh;
@@ -274,21 +249,13 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: #006EB8; */
 }
-
 #advantages-header{
     font-size: 5.6em;
     font-weight: 900;
     color: rgb(238, 238, 238);
     margin-top: 0;
     margin-bottom: 20px;
-}
-#differences-header{
-    font-size: 5em;
-    font-weight: 900;
-    color: #fff;
-    text-align: right;
 }
 .adv-section-content ul{
     padding: 0;
@@ -305,9 +272,6 @@ button:hover{
     font-weight: 300;
     color: #fff;
 }
-#diff-ul{
-    text-align: right;
-}
 #adv-hr{
     border: none; 
     color: #006EB8; 
@@ -316,16 +280,6 @@ button:hover{
     width: 200px;
     margin: 0 0 50px 0;
 }
-#diff-hr{
-    border: none; 
-    color: #fff; 
-    background-color: #fff; 
-    height: 3.3px; 
-    width: 7vw;
-    margin: 16px 0 70px 0;
-    align-self: flex-end;
-}
-
 .events-section{
     padding:0;
     display: flex;
@@ -363,68 +317,11 @@ button:hover{
     color: #006EB8;
     margin-bottom: 0;
 }
-#blue-text{
-    color:#006EB8;
-}
-.event-reg{
-    height: 14vh;
-    background-color: #006EB8;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.next-event-info{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding-left: 10vw;
-}
-.event-date-div{
-    display:flex;
-    flex-direction: row;
-}
-.event-date{
-    margin-right:5%;
-}
-#event-date-p{
-    font-weight: 700;
-}
-.event-place{   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.event-place p{   
-    margin:0;
-    font-weight: 700;
-}
-.next-event-info p{
-    margin: 0 0 10px 0;
-    font-size: 2.7em;
-    color: #fff;
-}
-.next-event-reg{
-    width: 50%;
-}
-.next-event-reg button{
-    background: #2DBBB1;
-    height: 50px;
-    width: 13vw;
-    margin-top: 1vh;
-    font-size: 2.3em;
-    font-weight: 900;
-    border-radius: 1px;
-    transition: .3s;
-    margin-left: 50%;
-}
-
 .join-section{
     height: 86vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* background-color: #006EB8; */
     background: url(../img/Prof-unity-join.png) center center/cover no-repeat;
 }
 .join-text{
@@ -439,10 +336,6 @@ button:hover{
     font-size: 3.8em;
     color: #fff;
     margin: 50px 0 0 0;
-}
-#join-text{
-    font-weight: 600;
-    font-size: 3.7em;
 }
 #join-header{
     font-size: 5em;
@@ -486,10 +379,8 @@ button:hover{
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
 }
 .join-button:hover{
-    /* background: rgb(34, 156, 148); */
     background: #006EB8;
 }
-
 #footer{
     background-color: rgb(241, 241, 241);
     display: flex;
