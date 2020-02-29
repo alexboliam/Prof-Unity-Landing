@@ -32,10 +32,18 @@
     }
     .about-section{
         min-height: 500px;
+        background-position-x: 100px;
     }
     .about-content{
-        width: 150vh;
+        width: 70vw;
         color: white;
+    }
+    .about-text p{
+        color: #006EB8;
+        margin-top: 0;
+    }
+    #about-header{
+        margin-top: 0;
     }
     .adv-section{
         min-height: 600px;
@@ -43,9 +51,10 @@
     .events-section{
         min-height: 550px;
         padding: 0 8vw 0 0;
+        background-position: 0px;
     }
     .events-text{
-        width: 150vh;
+        width: 70vw;
     }
     .join-section{
         min-height: 600px;
