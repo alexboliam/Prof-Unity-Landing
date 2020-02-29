@@ -66,15 +66,22 @@
     .join-section{
         min-height: 600px;
     }
+    .join-text{
+        padding-left: 7vw;
+        padding-right: 2vw;
+    }
+    #youtube-img{
+        height: 220px !important;
+        width: 85% !important;
+        margin-left: 50%;
+        border-radius: 10px;
+        transform: translate(-50%, 0);
+    }
     #footer{
         min-height: 100px;
     }
     .footer-social-media{
         margin-left: 5vh;
-    }
-    .number{
-        width: 35vh;
-        height: 20px;
     }
     .footer-info p{
         margin: 0 20px 5px 0;
@@ -82,5 +89,17 @@
     #youtube-img{
         height: auto;
         width: auto;
+    }
+    .pay-social{
+        margin-left: 6vw;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #visa-mc{
+        margin: auto;
+    }
+    .footer-social-media{
+        margin: auto;
     }
 }

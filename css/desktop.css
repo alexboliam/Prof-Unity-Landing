@@ -519,7 +519,7 @@ button:hover{
 .footer-social-media{
     display: flex;
     flex-direction: row;
-    margin-left: auto;
+    margin: auto;
 }
 .footer-social-media a{
     margin-right: 14px;
@@ -530,7 +530,6 @@ button:hover{
 }
 #visa-mc{
     height:34px;
-    margin-left: 50px;
 }
 .footer-pdf-div{
     display: flex;
@@ -541,4 +540,13 @@ button:hover{
     font-weight: 500;
     font-size: 2.3em;
     color: #006EB8;
+}
+.pay-social{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+.number{
+    width: 120px;
+    height: 20px;
 }
