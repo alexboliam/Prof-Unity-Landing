@@ -57,7 +57,7 @@
     .events-section{
         height: 650px;
         padding: 0 8vw 0 0;
-        background-position: 0px;
+        background-position-x: -120px;
     }
     .events-text{
         width: 70vw;
