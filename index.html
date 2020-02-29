@@ -31,17 +31,18 @@
     <main>
         <!-- WELCOME PAGE -->
         <section>
-            <div class="container bgr-blue welcome-section">
-                <img src="icons/logo-mobile-moved.png" alt="Logo" class="logo-mobile">
-                <img src = "icons/logo-mobile-bordered-2.png" alt="Logo" class="logo-main">
+            <div class="welcome-section">
+                <img src = "icons/logo-mobile-bordered-2.png" alt="Logo" id="logo-main">
                 <div class="welcome-text">ВПС “PROF-UNITY”</div>
-                <div class="welcome-text-bottom">Единственный  в Украине профсоюз который объединяет<br>все сферы деятельности</div>
-                <div class="title-social-media">
-                    <a href="https://www.facebook.com/ProfUnity2019/" class="footer-link"><img src="icons/facebook-title.png"></a>
-                    <a href="https://t.me/PROFUNITY" class="footer-link"><img src="icons/telegram-title.png"></a>
-                    <a href="https://www.instagram.com/prof.unity/" class="footer-link"><img src="icons/instagram-title.png"></a>
-                    <a href="https://www.linkedin.com/company/prof-unity" class="footer-link"><img src="icons/linkedin-title.png"></a>
-                    <a href="https://invite.viber.com/?g2=AQADQsAY9Cle20ogDfr%2Bqo4iNmr3g8VT%2BG02LZdcmvZ7qA0EE1ASVHLansxSrBNy" class="footer-link"><img src="icons/viber-title.png"></a> 
+                <div class="welcome-text-bottom">Единственный в Украине профсоюз который объединяет<br>все сферы деятельности</div>
+                <div class="welcome-social-media">
+                    <a href="https://www.facebook.com/ProfUnity2019/"><img src="icons/facebook-title.png"></a>
+                    <a href="https://t.me/PROFUNITY"><img src="icons/telegram-title.png"></a>
+                    <a href="https://www.instagram.com/prof.unity/"><img src="icons/instagram-title.png"></a>
+                    <a href="https://www.linkedin.com/company/prof-unity"><img src="icons/linkedin-title.png"></a>
+                    <a href="https://invite.viber.com/?g2=AQADQsAY9Cle20ogDfr%2Bqo4iNmr3g8VT%2BG02LZdcmvZ7qA0EE1ASVHLansxSrBNy">
+                        <img src="icons/viber-title.png">
+                    </a> 
                 </div>
                 <button class="join-community" onclick="window.location.href = 'https://user.prof-unity.org/register'">Вступить в сообщество</button>
             </div>
@@ -51,12 +52,12 @@
         </section>
         <!-- ABOUT PAGE -->
         <a name="about" style="position: relative; top: 1px;"></a>
-        <section class="container full-size-section about-section">
-            <p id="about-header" class="frgr-blue">О нас</p>
+        <section class="full-size-section about-section">
+            <p id="about-header">О нас</p>
             <hr id="text-hr">
             <div class="about-content">
                 <!-- <img src="icons/brand/logo-brand.png" alt="Logo prof-unity"> -->
-                <div class="about-text frgr-blue">
+                <div class="about-text">
                     <p> PROF-UNITY - это профессиональное сообщество, которое с помощью разработанной IT площадки,  
                         где специалисты и предприниматели, используя свои возможности и контакты, создают виртуальную коммуникационную сеть 
                         позволяющую быстро, гарантировано и конфидециально решить любой вопрос. 
@@ -69,8 +70,8 @@
         </section>
         <!-- ADVANTAGES PAGE -->
         <a name="advantages" style="position: relative; top: 1px;"></a>
-        <section class="container adv-section">
-            <div class="adv-section-content adv-content">
+        <section class="adv-section">
+            <div class="adv-section-content">
                 <p id="advantages-header">Что получают участники профсоюза?</p>
                 <hr id="adv-hr">
                 <ul>
@@ -91,31 +92,23 @@
                     </li>
                 </ul>
             </div>
-            <div class="adv-section-content diff-content">
-                <img src="icons/advantages.png" alt="Advantages-community">
-            </div>
         </section>
         <!-- EVENTS PAGE -->
         <a name="events" style="position: relative; top: 1px;"></a>
-        <section class="container full-size-section events-section">
-            <div class="about-events">
-                <div class="events-text">
-                    <p id="events-header">Наши <br>мероприятия</p>
-                    <hr id="event-hr">
-                    <p id="mini-h">PROF PLAY</p>
-                    <p>Наши мероприятия построены таким образом, что каждый участник гарантировано презентует свой продукт или возможности, 
-                        подбирается оптимальная аудитория по интересам, выстраиваются процессы мероприятия так, 
-                        чтобы участники использовали свое время с максимальной выгодой.</p>
-                    <p>Мы собираем для участников нужные им контакты, а электронная визитка наших участников позволяет с 
-                        легкостью обмениваться контактами. Ваши возможности всегда онлайн в нашей базе.</p>
-                </div>
-                <div class="events-img">
-                    <img src="img/Bg.png" alt="Event image" id="event-img">
-                </div>
+        <section class="full-size-section events-section">
+            <div class="events-text">
+                <p id="events-header">Наши <br>мероприятия</p>
+                <hr id="event-hr">
+                <p id="mini-h">PROF PLAY</p>
+                <p>Наши мероприятия построены таким образом, что каждый участник гарантировано презентует свой продукт или возможности, 
+                    подбирается оптимальная аудитория по интересам, выстраиваются процессы мероприятия так, 
+                     чтобы участники использовали свое время с максимальной выгодой.</p>
+                <p>Мы собираем для участников нужные им контакты, а электронная визитка наших участников позволяет с 
+                    легкостью обмениваться контактами. Ваши возможности всегда онлайн в нашей базе.</p>
             </div>
         </section>
         <!-- JOIN PAGE -->
-        <section class="container join-section">
+        <section class="join-section">
             <div class="join-text">
                 <div>
                     <p id="join-header">Стать участником</p>
@@ -128,12 +121,12 @@
                 </div>
             </div>
             <div class="video-div">
-                <iframe id="youtube-img" src="https://www.youtube.com/embed/PE3C47nFj10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <!-- <img src="icons/icon-youtube.png" alt="Youtube player" > -->
+                <iframe id="youtube-img" src="https://www.youtube.com/embed/PE3C47nFj10" frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
     </main>
-    <footer class="container" id="footer">
+    <footer id="footer">
         <div class="footer-section">
             <div class="footer-info">
                 <div>

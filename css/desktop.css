@@ -15,7 +15,6 @@ section, div{
 }
 header {
     background: #006EB8;
-    
 }
 nav{
     margin: 0 auto;
@@ -24,19 +23,6 @@ nav{
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
     z-index: 1;
 }
-
-.bgr-blue {
-    /*background: #006EB8;*/
-    background: url('../img/Prof-unity-278-2.png') center center/cover no-repeat;
-    /* background-position-y: -70px; */
-}
-.frgr-blue{
-    color: #006EB8;
-}
-.frgr-white{
-    color: white;
-}
-
 
 #checkbox-menu, .toggle{
     display: none;
@@ -74,9 +60,12 @@ nav{
     border-radius: 1px;
     font-weight: 300;
     font-size: 2.5em;
+    transition: .4s;
 }
 .menu li a.lc-btn:hover {
-    background: rgb(39, 161, 153);
+    /* background: rgb(39, 161, 153); */
+    background: #fff;
+    color: #2DBBB1;
 }
 
 .menu li a.logo{
@@ -108,11 +97,7 @@ button:hover{
     background: #006EB8;
     color: rgb(255, 255, 255);
 }
-
-.logo-mobile{
-    display: none;
-}
-.logo-main{
+#logo-main{
     margin-left: 50%;
     margin-bottom: 40px;
     margin-top: 40px;
@@ -122,6 +107,8 @@ button:hover{
 }
 .welcome-section {
     height: 87vh;
+    background: url('../img/Prof-unity-278-2.png') center center/cover no-repeat;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,11 +140,11 @@ button:hover{
     transform: translate(-50%,0);
     text-align: center;
 }
-.title-social-media a img{
+.welcome-social-media a img{
     height: 26px;
     width: 26px;
 }
-.title-social-media{
+.welcome-social-media{
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -165,7 +152,7 @@ button:hover{
     margin-left: 50%;
     transform: translate(-50%, 0);
 }
-.title-social-media a{
+.welcome-social-media a{
     margin-right: 11px;
     margin-left: 11px;
 }
@@ -289,16 +276,7 @@ button:hover{
     justify-content: center;
     /* background-color: #006EB8; */
 }
-.diff-content{
-    min-width:50vw;
-    padding: 6vh 0 0 0 !important;
-}
-.diff-content img{
-    display: none;
-    margin-left: 5vw;
-    height: 40vw;
-    width: 40vw;
-}
+
 #advantages-header{
     font-size: 5.6em;
     font-weight: 900;
@@ -349,13 +327,7 @@ button:hover{
 }
 
 .events-section{
-    display: flex;
-    flex-direction: column;
     padding:0;
-    height: 100vh;
-    /* align-items: center; */
-}
-.about-events{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -363,20 +335,15 @@ button:hover{
     width: 100%;
     background: url(../img/bcgr-table-fullscreen-2.png) center center/cover no-repeat;
 }
+.events-section p{
+    font-size: 3.2em;
+}
 .events-text{
-    width:50%;
-
+    width: 61vh;
     padding: 6vh 8vw 0 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-#event-img{
-    height: 86vh;
-    display:none;
-}
-.events-img{
-    min-width: 50%;
 }
 #events-header{
     font-size: 5em;
@@ -391,9 +358,6 @@ button:hover{
     height: 3.3px; 
     width: 200px;
     margin: 0 0 20px 0;
-}
-.about-events p{
-    font-size: 3.2em;
 }
 #mini-h{
     color: #006EB8;
@@ -531,7 +495,7 @@ button:hover{
 }
 #youtube-img{
     height: 400px;
-    width: 600px;
+    width: 85%;
     margin-left: 50%;
     border-radius: 10px;
     transform: translate(-50%, 0);
