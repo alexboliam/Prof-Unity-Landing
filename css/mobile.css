@@ -209,11 +209,11 @@
         height: 160vh;
     }
     .events-text{
-        width: auto;
+        width: 90vw;
         align-items: center;
         height: 100vh;
         padding: 0;
-        margin:0;
+        margin:0 0 0 5vw;
         min-height: 700px;
     }
     #events-header{
@@ -361,10 +361,11 @@
     }
     #visa-mc{
         height:34px;
-        margin: 20px 0 0 0;
+        margin: 10px auto 0 auto;
     }
     .pay-social{
         margin-left:auto;
         margin-right:auto;
+        flex-direction: column;
     }
 }
