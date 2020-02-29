@@ -31,7 +31,7 @@
         width: 120px;
     }
     .about-section{
-        min-height: 500px;
+        height: 530px;
         background-position-x: 100px;
     }
     .about-content{
@@ -42,6 +42,12 @@
         color: #006EB8;
         margin-top: 0;
     }
+    .about-content{
+        margin-top: 40px;
+    }
+    .become-member{
+        margin-top: 34px;
+    }
     #about-header{
         margin-top: 0;
     }
@@ -49,12 +55,13 @@
         min-height: 600px;
     }
     .events-section{
-        min-height: 550px;
+        height: 650px;
         padding: 0 8vw 0 0;
         background-position: 0px;
     }
     .events-text{
         width: 70vw;
+        padding-top: 0;
     }
     .join-section{
         min-height: 600px;
