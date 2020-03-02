@@ -2,9 +2,9 @@ html,body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family:  'Gilroy', sans-serif;
-    font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
     scroll-behavior: smooth;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
 }
 section, div{
     position: relative;
@@ -42,10 +42,11 @@ nav{
     color: white;
     text-decoration: none;
     align-self: center;
-    font-size: 2.5em;
-    font-weight: 900;
+    font-weight: 400;
+    font-size: 18px;
     padding: 10px 15px;
     transition: background .2s linear;
+    border-radius: 5px;
 }
 .menu li a:hover {
     background: #2DBBB1;
@@ -54,9 +55,8 @@ nav{
 .menu a.lc-btn {
     background: #2DBBB1;
     padding: 10px 15px 11px 15px;
-    border-radius: 1px;
-    font-weight: 300;
-    font-size: 2.5em;
+    border-radius: 5px;
+    font-weight: 400;
     transition: .4s;
 }
 .menu li a.lc-btn:hover {
@@ -66,7 +66,7 @@ nav{
 
 .menu li a.logo{
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 24px;
     text-transform: uppercase;
     position: absolute;
     left: 7.5vw;
@@ -113,8 +113,8 @@ button:hover{
     padding-left: 10vw;
 }
 .welcome-section .welcome-text {
-    font-weight: 900;
-    font-size: 7em;
+    font-size: 36px;
+    font-weight: 700;
     width:fit-content;
     line-height: 40px;
     letter-spacing: 1px;
@@ -124,8 +124,8 @@ button:hover{
     text-transform: uppercase;
 }
 .welcome-text-bottom{
-    font-weight: 300;
-    font-size: 3.3em;
+    font-weight: 400;
+    font-size: 20px;
     width:fit-content;
     line-height: 30px;
     letter-spacing: 1px;
@@ -151,12 +151,12 @@ button:hover{
     margin-left: 11px;
 }
 .welcome-section .join-community {
-    width: 240px;
-    height: 43px;
-    font-weight: 600;
-    font-size: 2.4em;
+    width: 300px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 18px;
     margin-left: 50%;
-    border-radius: 2px;
+    border-radius: 100px;
     transform: translate(-50%,0);
     margin-top: 50px;
     transition: .3s;
@@ -180,9 +180,9 @@ button:hover{
     height: 3.3px;
 }
 #about-header {
-    font-size: 5em;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 20px;
+    font-size: 36px;
     margin-top: 10vh;
     color: #006EB8;
 }
@@ -203,23 +203,22 @@ button:hover{
     align-items: center;
 }
 .about-content .about-text{
-    font-weight: 500;
-    font-size: 3.2em;
+    font-weight: 400;
     text-align: left;
     color: #006EB8;
+    font-size: 20px;
 }
 .about-content .about-text span{
-    font-weight: 900;
-    font-size: 1.17em;
+    font-weight: 700;
 }
 .become-member{
     background: #2DBBB1;
-    height: 43px;
-    width: 240px;
+    height: 60px;
+    width: 300px;
     margin-top: 5vh;
-    font-size: 2.3em;
-    font-weight: 900;
-    border-radius: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 100px;
     transition: .3s;
     color:#fff;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
@@ -251,8 +250,8 @@ button:hover{
     justify-content: center;
 }
 #advantages-header{
-    font-size: 5.6em;
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 36px;
     color: rgb(238, 238, 238);
     margin-top: 0;
     margin-bottom: 20px;
@@ -263,14 +262,12 @@ button:hover{
 }
 .adv-section-content li{
     margin-bottom: 3vh;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
 }
 .adv-section-content li:before{
     content:"-";
-}
-.adv-section-content li{
-    font-size: 3.6em;
-    font-weight: 300;
-    color: #fff;
 }
 #adv-hr{
     border: none; 
@@ -289,19 +286,21 @@ button:hover{
     width: 100%;
     background: url(../img/bcgr-events.png) center center/cover no-repeat;
 }
-.events-section p{
-    font-size: 3.2em;
-}
+
 .events-text{
     width: 61vh;
-    padding: 6vh 8vw 0 10vw;
+    padding: 0 8vw 0 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.events-text p{
+    font-weight: 400;
+    font-size: 20px;
+}
 #events-header{
-    font-size: 5em;
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 36px;
     color: #006EB8;
     margin-bottom: 20px;
 }
@@ -333,13 +332,13 @@ button:hover{
     justify-content: center;
 }
 .join-text p{
-    font-size: 3.8em;
     color: #fff;
     margin: 50px 0 0 0;
+    font-size: 20px;
 }
 #join-header{
-    font-size: 5em;
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 36px;
     color: #fff;
     margin-top: 0;
 }
@@ -352,8 +351,8 @@ button:hover{
     margin: 14px 0 0 0;
 }
 #price-text{
-    font-size: 5em;
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -371,10 +370,10 @@ button:hover{
 .join-button{
     background: #2DBBB1;
     height: 60px;
-    width: 20vw;
-    font-size: 3em;
+    width: 300x;
     font-weight: 700;
-    border-radius: 2px;
+    font-size: 20px;
+    border-radius: 100px;
     transition: .3s;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
 }
@@ -395,12 +394,12 @@ button:hover{
     align-items: center;
 }
 .footer-info{
+    font-size: 16px;
     display: flex;
     flex-direction: row;
     justify-content: start;
 }
 .footer-info p{
-    font-size: 2.3em;
     color: #006EB8;
     margin: 0 60px 5px 0;
 }
@@ -427,9 +426,11 @@ button:hover{
     flex-direction: column;
     justify-content: center;
 }
+.footer-pdf-div a{
+    padding-bottom: 5px;
+}
 .footer-info-pdf{
     font-weight: 500;
-    font-size: 2.3em;
     color: #006EB8;
 }
 .pay-social{
