@@ -402,6 +402,12 @@ button:hover{
 .footer-info p{
     color: #006EB8;
     margin: 0 60px 5px 0;
+    text-decoration: none;
+}
+.footer-info a{
+    color: #006EB8;
+    margin: 0 60px 5px 0;
+    text-decoration: none;
 }
 .footer-p-title{
     font-weight: 700;
@@ -439,6 +445,6 @@ button:hover{
     margin-left: auto;
 }
 .number{
-    width: 120px;
+    width: 150px;
     height: 20px;
 }
